@@ -1,819 +1,0 @@
-TcrmDemo
-v6
-r1
-cCheck dependencies
-cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/ResourceRules.plist
-cProcessPCH /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/PrecompiledHeaders/crmDemo-Prefix-hhexgfsuvsnscfgtxqxxtufvwodx/crmDemo-Prefix.pch.pch crmDemo/crmDemo-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionUtils.o /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionUtils.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionInjector.o /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjector.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/NSObject+Objection.o /Users/liyang/workspace/crmDemo/crmDemo/Objection/NSObject+Objection.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionInjectorEntry.o /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjectorEntry.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionEntry.o /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionEntry.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectFactory.o /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectFactory.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionProviderEntry.o /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionProviderEntry.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/AppDelegate.o /Users/liyang/workspace/crmDemo/crmDemo/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/FirstModule.o /Users/liyang/workspace/crmDemo/crmDemo/FirstModule.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/FirstViewController.o /Users/liyang/workspace/crmDemo/crmDemo/FirstViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionBindingEntry.o /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionBindingEntry.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/main.o /Users/liyang/workspace/crmDemo/crmDemo/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionModule.o /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionModule.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjection.o /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjection.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/crmDemo normal armv7
-cCopyStringsFile /Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/en.lproj/InfoPlist.strings crmDemo/en.lproj/InfoPlist.strings
-cCompileAssetCatalog /Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app /Users/liyang/workspace/crmDemo/crmDemo/Images.xcassets
-cProcessInfoPlistFile /Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/Info.plist /Users/liyang/workspace/crmDemo/crmDemo/crmDemo-Info.plist
-cGenerateDSYMFile /Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app.dSYM /Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/crmDemo
-cProcessProductPackaging /Users/liyang/Library/MobileDevice/Provisioning\ Profiles/758E909E-0578-48F2-B326-4F8B0729B57C.mobileprovision /Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/embedded.mobileprovision
-cTouch /Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app
-cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo.xcent
-cCodeSign /Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
-c00000000539C0CFB0000000000000132
-t1402735867
-s306
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
-c00000000539C0C9D0000000000000094
-t1402735773
-s148
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
-c00000000539C0C9D0000000000000096
-t1402735773
-s150
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
-c00000000539C0C9D000000000000036B
-t1402735773
-s875
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
-c00000000539C0C9E000000000000019E
-t1402735774
-s414
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c00000000539C0CA000000000004D7BC0
-t1402735776
-s5077952
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c00000000539C0CA20000000000A90C10
-t1402735778
-s11078672
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c00000000539C0CA80000000002759920
-t1402735784
-s41261344
-
-N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
-c00000000539C0CDE0000000000000ADC
-t1402735838
-s2780
-
-N/Users/liyang/Library/MobileDevice/Provisioning Profiles/758E909E-0578-48F2-B326-4F8B0729B57C.mobileprovision
-c000000005390153C0000000000002787
-t1401951548
-s10119
-
-N/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/PrecompiledHeaders/crmDemo-Prefix-hhexgfsuvsnscfgtxqxxtufvwodx/crmDemo-Prefix.pch.pch
-t1407123585
-s87688
-
-N/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/AppDelegate.o
-t1407123585
-s63676
-
-N/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/FirstModule.o
-t1407123585
-s10180
-
-N/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/FirstViewController.o
-t1407123585
-s49936
-
-N/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectFactory.o
-t1407123585
-s10164
-
-N/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjection.o
-t1407123585
-s17740
-
-N/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionBindingEntry.o
-t1407123585
-s8512
-
-N/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionEntry.o
-t1407123585
-s10444
-
-N/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionInjector.o
-t1407123585
-s36224
-
-N/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionInjectorEntry.o
-t1407123585
-s16532
-
-N/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionModule.o
-t1407123585
-s29700
-
-N/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionProviderEntry.o
-t1407123585
-s9712
-
-N/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionUtils.o
-t1407123585
-s24748
-
-N/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/NSObject+Objection.o
-t1407123585
-s4136
-
-N/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/crmDemo.LinkFileList
-c0000000053DF0080000000000000080E
-t1407123584
-s2062
-
-N/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/main.o
-t1407123585
-s3760
-
-N/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/assetcatalog_dependencies.txt
-t1407123586
-s368
-
-N/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/assetcatalog_generated_info.plist
-t1407123586
-s525
-
-N/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo.xcent
-t1407123586
-s588
-
-N/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app
-t1407123586
-s340
-
-N/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app.dSYM
-t2
-s0
-
-N/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/Info.plist
-t1407123586
-s1258
-
-N/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/PkgInfo
-t1407123586
-s8
-
-N/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/ResourceRules.plist
-t1407123584
-s150
-
-N/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/crmDemo
-t1407123585
-s113464
-
-N/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/embedded.mobileprovision
-t1407123586
-s10119
-
-N/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/en.lproj/InfoPlist.strings
-t1407123585
-s42
-
-N/Users/liyang/workspace/crmDemo/crmDemo/AppDelegate.m
-c0000000053DEFC380000000000000879
-t1407122488
-s2169
-
-N/Users/liyang/workspace/crmDemo/crmDemo/FirstModule.m
-c0000000053DEFF590000000000000278
-t1407123289
-s632
-
-N/Users/liyang/workspace/crmDemo/crmDemo/FirstViewController.m
-c0000000053DF007F0000000000000649
-t1407123583
-s1609
-
-N/Users/liyang/workspace/crmDemo/crmDemo/Images.xcassets
-c0000000053DEFC380000000000000088
-t1407122488
-s136
-
-N/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectFactory.m
-c0000000053DB35E500000000000002B6
-t1406875109
-s694
-
-N/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjection.m
-c0000000053DB35E50000000000000B60
-t1406875109
-s2912
-
-N/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionBindingEntry.m
-c0000000053DB35E5000000000000018F
-t1406875109
-s399
-
-N/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionEntry.m
-c0000000053DB35E50000000000000136
-t1406875109
-s310
-
-N/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjector.m
-c0000000053DB35E50000000000001C1B
-t1406875109
-s7195
-
-N/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjectorEntry.m
-c0000000053DB35E50000000000000A7E
-t1406875109
-s2686
-
-N/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionModule.m
-c0000000053DB35E500000000000013C4
-t1406875109
-s5060
-
-N/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionProviderEntry.m
-c0000000053DB35E50000000000000243
-t1406875109
-s579
-
-N/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionUtils.m
-c0000000053DB35E50000000000001CA9
-t1406875109
-s7337
-
-N/Users/liyang/workspace/crmDemo/crmDemo/Objection/NSObject+Objection.m
-c0000000053DB35E5000000000000006E
-t1406875109
-s110
-
-N/Users/liyang/workspace/crmDemo/crmDemo/crmDemo-Info.plist
-c0000000053DEFC380000000000000490
-t1407122488
-s1168
-
-N/Users/liyang/workspace/crmDemo/crmDemo/crmDemo-Prefix.pch
-c0000000053DEFC380000000000000158
-t1407122488
-s344
-
-N/Users/liyang/workspace/crmDemo/crmDemo/en.lproj/InfoPlist.strings
-c0000000053DEFC38000000000000002D
-t1407122488
-s45
-
-N/Users/liyang/workspace/crmDemo/crmDemo/main.m
-c0000000053DEFC38000000000000014A
-t1407122488
-s330
-
-CBuild AST from /Users/liyang/workspace/crmDemo/crmDemo/AppDelegate.m
-r0
-
-CBuild AST from /Users/liyang/workspace/crmDemo/crmDemo/FirstModule.m
-r0
-
-CBuild AST from /Users/liyang/workspace/crmDemo/crmDemo/FirstViewController.m
-r0
-
-CBuild AST from /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectFactory.m
-r0
-
-CBuild AST from /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjection.m
-r0
-
-CBuild AST from /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionBindingEntry.m
-r0
-
-CBuild AST from /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionEntry.m
-r0
-
-CBuild AST from /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjector.m
-r0
-
-CBuild AST from /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjectorEntry.m
-r0
-
-CBuild AST from /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionModule.m
-r0
-
-CBuild AST from /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionProviderEntry.m
-r0
-
-CBuild AST from /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionUtils.m
-r0
-
-CBuild AST from /Users/liyang/workspace/crmDemo/crmDemo/Objection/NSObject+Objection.m
-r0
-
-CBuild AST from /Users/liyang/workspace/crmDemo/crmDemo/main.m
-r0
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies4ed37b00388fb941^34d98f00388fb941^---0#1#1#--18"Check dependencies36"1F2D5EB0-ACA8-4ADF-8D42-3634FA73FEE1-
-
-CCodeSign /Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app
-s428816386.713380
-e428816386.841683
-r1
-xCodeSign
-x/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"CodeSign DerivedData/Build/Products/Debug-iphoneos/crmDemo.app62"CodeSign DerivedData/Build/Products/Debug-iphoneos/crmDemo.appffb3b602388fb941^d482d702388fb941^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/0000000000000000^1017"CodeSign DerivedData/Build/Products/Debug-iphoneos/crmDemo.app    cd /Users/liyang/workspace/crmDemo    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Using code signing identity "iPhone Developer: YU HE (FSJYCJFDN3)" and provisioning profile "iOS Team Provisioning Profile: *" (758E909E-0578-48F2-B326-4F8B0729B57C)    /usr/bin/codesign --force --sign B1327E62FFE73A390A412C4F9A4767BC056BFD08 --resource-rules=/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/ResourceRules.plist --entitlements /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo.xcent /Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app36"3D0FA9AA-764F-4119-9B66-5A4B94160620-
-b5D958EBF-2441-429F-B4B2-A8B93B056C56
-
-CCompileAssetCatalog /Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app /Users/liyang/workspace/crmDemo/crmDemo/Images.xcassets
-s428816385.640455
-e428816386.674840
-r1
-xCompileAssetCatalog
-x/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app
-x/Users/liyang/workspace/crmDemo/crmDemo/Images.xcassets
-o/* com.apple.actool.compilation-results */
-o/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/LaunchImage-700-568h@2x.png
-o/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/Assets.car
-o/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/assetcatalog_generated_info.plist
-o
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"CompileAssetCatalog DerivedData/Build/Products/Debug-iphoneos/crmDemo.app crmDemo/Images.xcassets97"CompileAssetCatalog DerivedData/Build/Products/Debug-iphoneos/crmDemo.app crmDemo/Images.xcassets7c0aa401388fb941^a4c2ac02388fb941^-396"/* com.apple.actool.compilation-results *//Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/LaunchImage-700-568h@2x.png/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/Assets.car/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@63"file:///Users/liyang/workspace/crmDemo/crmDemo/Images.xcassets/0000000000000000^1064"CompileAssetCatalog DerivedData/Build/Products/Debug-iphoneos/crmDemo.app crmDemo/Images.xcassets    cd /Users/liyang/workspace/crmDemo    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphoneos --minimum-deployment-target 7.1 --target-device iphone --compress-pngs --compile /Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app /Users/liyang/workspace/crmDemo/crmDemo/Images.xcassets36"4BE7F08F-04FE-41AF-B0E3-0AFCF411238C-
-b5D958EBF-2441-429F-B4B2-A8B93B056C56
-
-CCompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/AppDelegate.o /Users/liyang/workspace/crmDemo/crmDemo/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s428816385.396176
-e428816385.489757
-r1
-xCompileC
-xDerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/AppDelegate.o
-x/Users/liyang/workspace/crmDemo/crmDemo/AppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/liyang/workspace/crmDemo/crmDemo/AppDelegate.m
-d/Users/liyang/workspace/crmDemo/crmDemo/AppDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Users/liyang/workspace/crmDemo/crmDemo/AppDelegate.m209"CompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/AppDelegate.o crmDemo/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler5fb66501388fb941^bb637d01388fb941^---0#0#1#-19%DVTDocumentLocation2@60"file:///Users/liyang/workspace/crmDemo/crmDemo/AppDelegate.m0000000000000000^3551"CompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/AppDelegate.o crmDemo/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/liyang/workspace/crmDemo    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/liyang/workspace/crmDemo/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-generated-files.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-own-target-headers.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-all-target-headers.hmap -iquote /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-project-headers.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -IcrmDemo/protocols -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/DerivedSources/armv7 -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/DerivedSources -F/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos -include /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/PrecompiledHeaders/crmDemo-Prefix-hhexgfsuvsnscfgtxqxxtufvwodx/crmDemo-Prefix.pch -MMD -MT dependencies -MF /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/AppDelegate.dia -c /Users/liyang/workspace/crmDemo/crmDemo/AppDelegate.m -o /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/AppDelegate.o36"17FBEFE5-70E2-41D9-A43B-1ED6F2116C04-
-b5D958EBF-2441-429F-B4B2-A8B93B056C56
-
-CCompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/FirstModule.o /Users/liyang/workspace/crmDemo/crmDemo/FirstModule.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s428816385.403155
-e428816385.452830
-r1
-xCompileC
-xDerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/FirstModule.o
-x/Users/liyang/workspace/crmDemo/crmDemo/FirstModule.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/liyang/workspace/crmDemo/crmDemo/FirstModule.m
-d/Users/liyang/workspace/crmDemo/crmDemo/FirstModule.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionModule.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionEntry.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/Objection.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjector.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionBindingEntry.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/NSObject+Objection.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjectorEntry.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionUtils.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionProviderEntry.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectFactory.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjection.h
-d/Users/liyang/workspace/crmDemo/crmDemo/FirstViewController.h
-d/Users/liyang/workspace/crmDemo/crmDemo/protocols/CRMModelProtocols.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Users/liyang/workspace/crmDemo/crmDemo/FirstModule.m209"CompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/FirstModule.o crmDemo/FirstModule.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerfd696701388fb941^89ec7301388fb941^---0#0#1#-19%DVTDocumentLocation2@60"file:///Users/liyang/workspace/crmDemo/crmDemo/FirstModule.m0000000000000000^3551"CompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/FirstModule.o crmDemo/FirstModule.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/liyang/workspace/crmDemo    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/liyang/workspace/crmDemo/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-generated-files.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-own-target-headers.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-all-target-headers.hmap -iquote /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-project-headers.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -IcrmDemo/protocols -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/DerivedSources/armv7 -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/DerivedSources -F/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos -include /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/PrecompiledHeaders/crmDemo-Prefix-hhexgfsuvsnscfgtxqxxtufvwodx/crmDemo-Prefix.pch -MMD -MT dependencies -MF /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/FirstModule.d --serialize-diagnostics /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/FirstModule.dia -c /Users/liyang/workspace/crmDemo/crmDemo/FirstModule.m -o /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/FirstModule.o36"CCE3AB2A-0764-4C4A-8DFA-1629A785E398-
-b5D958EBF-2441-429F-B4B2-A8B93B056C56
-
-CCompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/FirstViewController.o /Users/liyang/workspace/crmDemo/crmDemo/FirstViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s428816385.426618
-e428816385.523158
-r1
-xCompileC
-xDerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/FirstViewController.o
-x/Users/liyang/workspace/crmDemo/crmDemo/FirstViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/liyang/workspace/crmDemo/crmDemo/FirstViewController.m
-d/Users/liyang/workspace/crmDemo/crmDemo/FirstViewController.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/Objection.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionModule.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionEntry.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjector.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionBindingEntry.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/NSObject+Objection.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjectorEntry.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionUtils.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionProviderEntry.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectFactory.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjection.h
-d/Users/liyang/workspace/crmDemo/crmDemo/protocols/CRMModelProtocols.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/liyang/workspace/crmDemo/crmDemo/FirstViewController.m225"CompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/FirstViewController.o crmDemo/FirstViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler0d556d01388fb941^c5aa8501388fb941^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/liyang/workspace/crmDemo/crmDemo/FirstViewController.m0000000000000000^3599"CompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/FirstViewController.o crmDemo/FirstViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/liyang/workspace/crmDemo    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/liyang/workspace/crmDemo/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-generated-files.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-own-target-headers.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-all-target-headers.hmap -iquote /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-project-headers.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -IcrmDemo/protocols -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/DerivedSources/armv7 -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/DerivedSources -F/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos -include /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/PrecompiledHeaders/crmDemo-Prefix-hhexgfsuvsnscfgtxqxxtufvwodx/crmDemo-Prefix.pch -MMD -MT dependencies -MF /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/FirstViewController.d --serialize-diagnostics /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/FirstViewController.dia -c /Users/liyang/workspace/crmDemo/crmDemo/FirstViewController.m -o /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/FirstViewController.o36"683684B5-E029-4320-9584-6E4FE38E99C5-
-b5D958EBF-2441-429F-B4B2-A8B93B056C56
-
-CCompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectFactory.o /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectFactory.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s428816385.373749
-e428816385.426356
-r1
-xCompileC
-xDerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectFactory.o
-x/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectFactory.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectFactory.m
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectFactory.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/Objection.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionModule.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionEntry.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjector.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionBindingEntry.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/NSObject+Objection.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjectorEntry.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionUtils.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionProviderEntry.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjection.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectFactory.m227"CompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectFactory.o crmDemo/Objection/JSObjectFactory.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler4bcc5f01388fb941^85266d01388fb941^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectFactory.m0000000000000000^3595"CompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectFactory.o crmDemo/Objection/JSObjectFactory.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/liyang/workspace/crmDemo    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/liyang/workspace/crmDemo/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-generated-files.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-own-target-headers.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-all-target-headers.hmap -iquote /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-project-headers.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -IcrmDemo/protocols -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/DerivedSources/armv7 -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/DerivedSources -F/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos -include /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/PrecompiledHeaders/crmDemo-Prefix-hhexgfsuvsnscfgtxqxxtufvwodx/crmDemo-Prefix.pch -MMD -MT dependencies -MF /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectFactory.d --serialize-diagnostics /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectFactory.dia -c /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectFactory.m -o /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectFactory.o36"81DE6EF9-3CC0-4657-96CD-2D9F7907A0F5-
-b5D958EBF-2441-429F-B4B2-A8B93B056C56
-
-CCompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjection.o /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjection.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s428816385.491886
-e428816385.565868
-r1
-xCompileC
-xDerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjection.o
-x/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjection.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjection.m
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjection.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjector.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionModule.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionEntry.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjectorEntry.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjection.m219"CompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjection.o crmDemo/Objection/JSObjection.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler450d7e01388fb941^a2d09a01388fb941^---0#0#1#-19%DVTDocumentLocation2@70"file:///Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjection.m0000000000000000^3571"CompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjection.o crmDemo/Objection/JSObjection.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/liyang/workspace/crmDemo    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/liyang/workspace/crmDemo/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-generated-files.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-own-target-headers.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-all-target-headers.hmap -iquote /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-project-headers.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -IcrmDemo/protocols -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/DerivedSources/armv7 -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/DerivedSources -F/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos -include /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/PrecompiledHeaders/crmDemo-Prefix-hhexgfsuvsnscfgtxqxxtufvwodx/crmDemo-Prefix.pch -MMD -MT dependencies -MF /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjection.d --serialize-diagnostics /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjection.dia -c /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjection.m -o /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjection.o36"2ECA12AA-72CF-4B7B-B802-1B8FED6B30D3-
-b5D958EBF-2441-429F-B4B2-A8B93B056C56
-
-CCompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionBindingEntry.o /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionBindingEntry.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s428816385.437876
-e428816385.487289
-r1
-xCompileC
-xDerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionBindingEntry.o
-x/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionBindingEntry.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionBindingEntry.m
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionBindingEntry.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionEntry.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionBindingEntry.m243"CompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionBindingEntry.o crmDemo/Objection/JSObjectionBindingEntry.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerda3a7001388fb941^16c07c01388fb941^---0#0#1#-19%DVTDocumentLocation2@82"file:///Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionBindingEntry.m0000000000000000^3643"CompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionBindingEntry.o crmDemo/Objection/JSObjectionBindingEntry.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/liyang/workspace/crmDemo    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/liyang/workspace/crmDemo/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-generated-files.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-own-target-headers.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-all-target-headers.hmap -iquote /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-project-headers.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -IcrmDemo/protocols -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/DerivedSources/armv7 -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/DerivedSources -F/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos -include /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/PrecompiledHeaders/crmDemo-Prefix-hhexgfsuvsnscfgtxqxxtufvwodx/crmDemo-Prefix.pch -MMD -MT dependencies -MF /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionBindingEntry.d --serialize-diagnostics /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionBindingEntry.dia -c /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionBindingEntry.m -o /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionBindingEntry.o36"C97FE655-6118-4A00-BBCD-AECF4F7C45A6-
-b5D958EBF-2441-429F-B4B2-A8B93B056C56
-
-CCompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionEntry.o /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionEntry.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s428816385.353556
-e428816385.402940
-r1
-xCompileC
-xDerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionEntry.o
-x/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionEntry.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionEntry.m
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionEntry.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionEntry.m229"CompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionEntry.o crmDemo/Objection/JSObjectionEntry.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler4da25a01388fb941^904c6701388fb941^---0#0#1#-19%DVTDocumentLocation2@75"file:///Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionEntry.m0000000000000000^3601"CompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionEntry.o crmDemo/Objection/JSObjectionEntry.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/liyang/workspace/crmDemo    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/liyang/workspace/crmDemo/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-generated-files.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-own-target-headers.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-all-target-headers.hmap -iquote /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-project-headers.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -IcrmDemo/protocols -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/DerivedSources/armv7 -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/DerivedSources -F/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos -include /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/PrecompiledHeaders/crmDemo-Prefix-hhexgfsuvsnscfgtxqxxtufvwodx/crmDemo-Prefix.pch -MMD -MT dependencies -MF /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionEntry.d --serialize-diagnostics /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionEntry.dia -c /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionEntry.m -o /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionEntry.o36"E746824D-C94F-4F27-89F9-0EA6A1703860-
-b5D958EBF-2441-429F-B4B2-A8B93B056C56
-
-CCompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionInjector.o /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjector.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s428816385.311621
-e428816385.395908
-r1
-xCompileC
-xDerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionInjector.o
-x/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjector.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjector.m
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjector.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionModule.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionEntry.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectFactory.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionUtils.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjectorEntry.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjector.m235"CompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionInjector.o crmDemo/Objection/JSObjectionInjector.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerc0e74f01388fb941^36726501388fb941^---0#0#1#-19%DVTDocumentLocation2@78"file:///Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjector.m0000000000000000^3619"CompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionInjector.o crmDemo/Objection/JSObjectionInjector.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/liyang/workspace/crmDemo    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/liyang/workspace/crmDemo/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-generated-files.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-own-target-headers.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-all-target-headers.hmap -iquote /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-project-headers.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -IcrmDemo/protocols -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/DerivedSources/armv7 -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/DerivedSources -F/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos -include /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/PrecompiledHeaders/crmDemo-Prefix-hhexgfsuvsnscfgtxqxxtufvwodx/crmDemo-Prefix.pch -MMD -MT dependencies -MF /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionInjector.d --serialize-diagnostics /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionInjector.dia -c /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjector.m -o /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionInjector.o36"2F2D7CD1-5F99-4133-85AB-E6FCA55B4108-
-b5D958EBF-2441-429F-B4B2-A8B93B056C56
-
-CCompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionInjectorEntry.o /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjectorEntry.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s428816385.312642
-e428816385.373503
-r1
-xCompileC
-xDerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionInjectorEntry.o
-x/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjectorEntry.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjectorEntry.m
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjectorEntry.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionEntry.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjection.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjector.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionModule.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionUtils.h
-o/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjectorEntry.m:49:34: warning: undeclared selector 'awakeFromObjection' [-Wundeclared-selector]
-o  if([object respondsToSelector:@selector(awakeFromObjection)]) {
-o                                 ^
-o/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjectorEntry.m:50:30: warning: undeclared selector 'awakeFromObjection' [-Wundeclared-selector]
-o    [object performSelector:@selector(awakeFromObjection)];
-o                             ^
-o/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjectorEntry.m:57:46: warning: undeclared selector 'objectionInitializer' [-Wundeclared-selector]
-o    if ([self.classEntry respondsToSelector:@selector(objectionInitializer)]) {
-o                                             ^
-o/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjectorEntry.m:74:68: warning: undeclared selector 'objectionInitializer' [-Wundeclared-selector]
-o    return NSSelectorFromString([[self.classEntry performSelector:@selector(objectionInitializer)] objectForKey:JSObjectionInitializerKey]);
-o                                                                   ^
-o/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjectorEntry.m:78:91: warning: undeclared selector 'objectionInitializer' [-Wundeclared-selector]
-o    return givenArguments.count > 0 ? givenArguments : [[self.classEntry performSelector:@selector(objectionInitializer)] objectForKey:JSObjectionDefaultArgumentsKey];
-o                                                                                          ^
-o5 warnings generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjectorEntry.m245"CompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionInjectorEntry.o crmDemo/Objection/JSObjectionInjectorEntry.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler7b315001388fb941^33e15f01388fb941^-1607"/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjectorEntry.m:49:34: warning: undeclared selector 'awakeFromObjection' [-Wundeclared-selector]  if([object respondsToSelector:@selector(awakeFromObjection)]) {                                 ^/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjectorEntry.m:50:30: warning: undeclared selector 'awakeFromObjection' [-Wundeclared-selector]    [object performSelector:@selector(awakeFromObjection)];                             ^/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjectorEntry.m:57:46: warning: undeclared selector 'objectionInitializer' [-Wundeclared-selector]    if ([self.classEntry respondsToSelector:@selector(objectionInitializer)]) {                                             ^/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjectorEntry.m:74:68: warning: undeclared selector 'objectionInitializer' [-Wundeclared-selector]    return NSSelectorFromString([[self.classEntry performSelector:@selector(objectionInitializer)] objectForKey:JSObjectionInitializerKey]);                                                                   ^/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjectorEntry.m:78:91: warning: undeclared selector 'objectionInitializer' [-Wundeclared-selector]    return givenArguments.count > 0 ? givenArguments : [[self.classEntry performSelector:@selector(objectionInitializer)] objectForKey:JSObjectionDefaultArgumentsKey];                                                                                          ^5 warnings generated.5(36%IDEClangDiagnosticActivityLogMessage2@40"Undeclared selector 'awakeFromObjection'-428816385#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@83"file:///Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjectorEntry.m0000000000000000^48#33#48#33#1049#0#14"Semantic Issue--2@40"Undeclared selector 'awakeFromObjection'-428816385#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@83"file:///Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjectorEntry.m0000000000000000^49#29#49#29#1111#0#14"Semantic Issue--2@42"Undeclared selector 'objectionInitializer'-428816385#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@83"file:///Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjectorEntry.m0000000000000000^56#45#56#45#1282#0#14"Semantic Issue--2@42"Undeclared selector 'objectionInitializer'-428816385#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@83"file:///Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjectorEntry.m0000000000000000^73#67#73#67#1992#0#14"Semantic Issue--2@42"Undeclared selector 'objectionInitializer'-428816385#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@83"file:///Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjectorEntry.m0000000000000000^77#90#77#90#2219#0#14"Semantic Issue--0#0#1#-19%DVTDocumentLocation4@83"file:///Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjectorEntry.m0000000000000000^3649"CompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionInjectorEntry.o crmDemo/Objection/JSObjectionInjectorEntry.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/liyang/workspace/crmDemo    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/liyang/workspace/crmDemo/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-generated-files.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-own-target-headers.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-all-target-headers.hmap -iquote /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-project-headers.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -IcrmDemo/protocols -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/DerivedSources/armv7 -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/DerivedSources -F/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos -include /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/PrecompiledHeaders/crmDemo-Prefix-hhexgfsuvsnscfgtxqxxtufvwodx/crmDemo-Prefix.pch -MMD -MT dependencies -MF /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionInjectorEntry.d --serialize-diagnostics /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionInjectorEntry.dia -c /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjectorEntry.m -o /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionInjectorEntry.o36"FD1B6F10-90E7-4D82-A924-D416EED6BAF5-
-b5D958EBF-2441-429F-B4B2-A8B93B056C56
-
-CCompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionModule.o /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionModule.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s428816385.487584
-e428816385.567077
-r1
-xCompileC
-xDerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionModule.o
-x/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionModule.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionModule.m
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionModule.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionEntry.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionBindingEntry.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionProviderEntry.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjectorEntry.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjector.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionModule.m231"CompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionModule.o crmDemo/Objection/JSObjectionModule.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerd8f07c01388fb941^17d59a01388fb941^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionModule.m0000000000000000^3607"CompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionModule.o crmDemo/Objection/JSObjectionModule.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/liyang/workspace/crmDemo    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/liyang/workspace/crmDemo/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-generated-files.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-own-target-headers.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-all-target-headers.hmap -iquote /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-project-headers.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -IcrmDemo/protocols -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/DerivedSources/armv7 -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/DerivedSources -F/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos -include /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/PrecompiledHeaders/crmDemo-Prefix-hhexgfsuvsnscfgtxqxxtufvwodx/crmDemo-Prefix.pch -MMD -MT dependencies -MF /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionModule.d --serialize-diagnostics /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionModule.dia -c /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionModule.m -o /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionModule.o36"F3131C73-2713-48B7-9D37-76C2A69737BA-
-b5D958EBF-2441-429F-B4B2-A8B93B056C56
-
-CCompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionProviderEntry.o /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionProviderEntry.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s428816385.384387
-e428816385.437573
-r1
-xCompileC
-xDerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionProviderEntry.o
-x/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionProviderEntry.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionProviderEntry.m
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionProviderEntry.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionEntry.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionModule.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionProviderEntry.m245"CompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionProviderEntry.o crmDemo/Objection/JSObjectionProviderEntry.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilera5866201388fb941^1d057001388fb941^---0#0#1#-19%DVTDocumentLocation2@83"file:///Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionProviderEntry.m0000000000000000^3649"CompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionProviderEntry.o crmDemo/Objection/JSObjectionProviderEntry.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/liyang/workspace/crmDemo    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/liyang/workspace/crmDemo/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-generated-files.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-own-target-headers.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-all-target-headers.hmap -iquote /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-project-headers.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -IcrmDemo/protocols -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/DerivedSources/armv7 -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/DerivedSources -F/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos -include /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/PrecompiledHeaders/crmDemo-Prefix-hhexgfsuvsnscfgtxqxxtufvwodx/crmDemo-Prefix.pch -MMD -MT dependencies -MF /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionProviderEntry.d --serialize-diagnostics /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionProviderEntry.dia -c /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionProviderEntry.m -o /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionProviderEntry.o36"A44AD3AA-9178-457D-B27A-4B49504AB183-
-b5D958EBF-2441-429F-B4B2-A8B93B056C56
-
-CCompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionUtils.o /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionUtils.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s428816385.311372
-e428816385.383938
-r1
-xCompileC
-xDerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionUtils.o
-x/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionUtils.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionUtils.m
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionUtils.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionInjector.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionModule.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionEntry.h
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjection.h
-o/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionUtils.m:51:40: warning: undeclared selector 'objectionRequires' [-Wundeclared-selector]
-o    if([superClass respondsToSelector:@selector(objectionRequires)]) {
-o                                       ^
-o/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionUtils.m:52:67: warning: undeclared selector 'objectionRequires' [-Wundeclared-selector]
-o        NSSet *parentsRequirements = [superClass performSelector:@selector(objectionRequires)];
-o                                                                  ^
-o/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionUtils.m:107:36: warning: undeclared selector 'objectionRequires' [-Wundeclared-selector]
-o    if ([klass respondsToSelector:@selector(objectionRequires)]) {
-o                                   ^
-o/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionUtils.m:108:55: warning: undeclared selector 'objectionRequires' [-Wundeclared-selector]
-o        NSArray *properties = [klass performSelector:@selector(objectionRequires)];
-o                                                      ^
-o4 warnings generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionUtils.m229"CompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionUtils.o crmDemo/Objection/JSObjectionUtils.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler53ce4f01388fb941^f0696201388fb941^-1140"/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionUtils.m:51:40: warning: undeclared selector 'objectionRequires' [-Wundeclared-selector]    if([superClass respondsToSelector:@selector(objectionRequires)]) {                                       ^/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionUtils.m:52:67: warning: undeclared selector 'objectionRequires' [-Wundeclared-selector]        NSSet *parentsRequirements = [superClass performSelector:@selector(objectionRequires)];                                                                  ^/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionUtils.m:107:36: warning: undeclared selector 'objectionRequires' [-Wundeclared-selector]    if ([klass respondsToSelector:@selector(objectionRequires)]) {                                   ^/Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionUtils.m:108:55: warning: undeclared selector 'objectionRequires' [-Wundeclared-selector]        NSArray *properties = [klass performSelector:@selector(objectionRequires)];                                                      ^4 warnings generated.4(36%IDEClangDiagnosticActivityLogMessage2@39"Undeclared selector 'objectionRequires'-428816385#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@75"file:///Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionUtils.m0000000000000000^50#39#50#39#2610#0#14"Semantic Issue--2@39"Undeclared selector 'objectionRequires'-428816385#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@75"file:///Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionUtils.m0000000000000000^51#66#51#66#2708#0#14"Semantic Issue--2@39"Undeclared selector 'objectionRequires'-428816385#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@75"file:///Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionUtils.m0000000000000000^106#35#106#35#5034#0#14"Semantic Issue--2@39"Undeclared selector 'objectionRequires'-428816385#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@75"file:///Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionUtils.m0000000000000000^107#54#107#54#5120#0#14"Semantic Issue--0#0#1#-19%DVTDocumentLocation4@75"file:///Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionUtils.m0000000000000000^3601"CompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionUtils.o crmDemo/Objection/JSObjectionUtils.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/liyang/workspace/crmDemo    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/liyang/workspace/crmDemo/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-generated-files.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-own-target-headers.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-all-target-headers.hmap -iquote /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-project-headers.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -IcrmDemo/protocols -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/DerivedSources/armv7 -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/DerivedSources -F/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos -include /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/PrecompiledHeaders/crmDemo-Prefix-hhexgfsuvsnscfgtxqxxtufvwodx/crmDemo-Prefix.pch -MMD -MT dependencies -MF /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionUtils.d --serialize-diagnostics /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionUtils.dia -c /Users/liyang/workspace/crmDemo/crmDemo/Objection/JSObjectionUtils.m -o /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionUtils.o36"0F157EC4-998F-40F4-909E-EAE5854D311B-
-b5D958EBF-2441-429F-B4B2-A8B93B056C56
-
-CCompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/NSObject+Objection.o /Users/liyang/workspace/crmDemo/crmDemo/Objection/NSObject+Objection.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s428816385.311889
-e428816385.352251
-r1
-xCompileC
-xDerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/NSObject+Objection.o
-x/Users/liyang/workspace/crmDemo/crmDemo/Objection/NSObject+Objection.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/NSObject+Objection.m
-d/Users/liyang/workspace/crmDemo/crmDemo/Objection/NSObject+Objection.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/liyang/workspace/crmDemo/crmDemo/Objection/NSObject+Objection.m233"CompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/NSObject+Objection.o crmDemo/Objection/NSObject+Objection.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler16fb4f01388fb941^952d5a01388fb941^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/liyang/workspace/crmDemo/crmDemo/Objection/NSObject+Objection.m0000000000000000^3613"CompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/NSObject+Objection.o crmDemo/Objection/NSObject+Objection.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/liyang/workspace/crmDemo    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/liyang/workspace/crmDemo/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-generated-files.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-own-target-headers.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-all-target-headers.hmap -iquote /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-project-headers.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -IcrmDemo/protocols -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/DerivedSources/armv7 -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/DerivedSources -F/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos -include /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/PrecompiledHeaders/crmDemo-Prefix-hhexgfsuvsnscfgtxqxxtufvwodx/crmDemo-Prefix.pch -MMD -MT dependencies -MF /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/NSObject+Objection.d --serialize-diagnostics /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/NSObject+Objection.dia -c /Users/liyang/workspace/crmDemo/crmDemo/Objection/NSObject+Objection.m -o /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/NSObject+Objection.o36"183E13B3-200B-42D0-B6C6-BE0CDD2971A2-
-b5D958EBF-2441-429F-B4B2-A8B93B056C56
-
-CCompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/main.o /Users/liyang/workspace/crmDemo/crmDemo/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s428816385.454107
-e428816385.500571
-r1
-xCompileC
-xDerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/main.o
-x/Users/liyang/workspace/crmDemo/crmDemo/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/liyang/workspace/crmDemo/crmDemo/main.m
-d/Users/liyang/workspace/crmDemo/crmDemo/AppDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Compile /Users/liyang/workspace/crmDemo/crmDemo/main.m195"CompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/main.o crmDemo/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler84617401388fb941^c0258001388fb941^---0#0#1#-19%DVTDocumentLocation2@53"file:///Users/liyang/workspace/crmDemo/crmDemo/main.m0000000000000000^3509"CompileC DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/main.o crmDemo/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/liyang/workspace/crmDemo    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/liyang/workspace/crmDemo/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-generated-files.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-own-target-headers.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-all-target-headers.hmap -iquote /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-project-headers.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -IcrmDemo/protocols -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/DerivedSources/armv7 -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/DerivedSources -F/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos -include /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/PrecompiledHeaders/crmDemo-Prefix-hhexgfsuvsnscfgtxqxxtufvwodx/crmDemo-Prefix.pch -MMD -MT dependencies -MF /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/main.dia -c /Users/liyang/workspace/crmDemo/crmDemo/main.m -o /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/main.o36"73E605AF-3299-4649-8092-04E48D4F667F-
-b5D958EBF-2441-429F-B4B2-A8B93B056C56
-
-CCopyStringsFile /Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/en.lproj/InfoPlist.strings crmDemo/en.lproj/InfoPlist.strings
-s428816385.639951
-e428816385.641027
-r1
-xCopyStringsFile
-x/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/en.lproj/InfoPlist.strings
-xcrmDemo/en.lproj/InfoPlist.strings
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy crmDemo/en.lproj/InfoPlist.strings131"CopyStringsFile DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/en.lproj/InfoPlist.strings crmDemo/en.lproj/InfoPlist.stringsd1e7a301388fb941^001ba401388fb941^---0#0#1#-19%DVTDocumentLocation2@73"file:///Users/liyang/workspace/crmDemo/crmDemo/en.lproj/InfoPlist.strings0000000000000000^582"CopyStringsFile DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/en.lproj/InfoPlist.strings crmDemo/en.lproj/InfoPlist.strings    cd /Users/liyang/workspace/crmDemo    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/en.lproj -- crmDemo/en.lproj/InfoPlist.strings36"824AE2B7-8A1C-4C8B-B730-248668EF046D-
-b5D958EBF-2441-429F-B4B2-A8B93B056C56
-
-CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/ResourceRules.plist
-s428816384.562235
-e428816384.563307
-r1
-xCpResource
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
-xDerivedData/Build/Products/Debug-iphoneos/crmDemo.app/ResourceRules.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Copy DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/ResourceRules.plist206"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/ResourceRules.plistdeff8f00388fb941^b8749000388fb941^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/ResourceRules.plist003414a1dcffdf42^754"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/ResourceRules.plist    cd /Users/liyang/workspace/crmDemo    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app36"B396C02E-566B-4CFD-A9C8-E548E40F3EE3-
-b5D958EBF-2441-429F-B4B2-A8B93B056C56
-
-CGenerateDSYMFile /Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app.dSYM /Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/crmDemo
-s428816386.690640
-e428816386.709569
-r1
-xGenerateDSYMFile
-x/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app.dSYM
-x/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/crmDemo
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Generate /Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app.dSYM137"GenerateDSYMFile DerivedData/Build/Products/Debug-iphoneos/crmDemo.app.dSYM DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/crmDemof0dfb002388fb941^dca1b502388fb941^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app.dSYM003414a1dcffdf42^653"GenerateDSYMFile DerivedData/Build/Products/Debug-iphoneos/crmDemo.app.dSYM DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/crmDemo    cd /Users/liyang/workspace/crmDemo    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/crmDemo -o /Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app.dSYM36"3018B604-28D5-4C69-A5B9-EDDA610E47D2-
-b5D958EBF-2441-429F-B4B2-A8B93B056C56
-
-CLd /Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/crmDemo normal armv7
-s428816385.571974
-e428816385.639222
-r1
-xLd
-x/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/crmDemo
-xnormal
-xarmv7
-d/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/crmDemo.LinkFileList
-d/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionUtils.o
-d/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionInjector.o
-d/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/NSObject+Objection.o
-d/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionInjectorEntry.o
-d/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionEntry.o
-d/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectFactory.o
-d/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionProviderEntry.o
-d/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/AppDelegate.o
-d/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/FirstModule.o
-d/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/FirstViewController.o
-d/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionBindingEntry.o
-d/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/main.o
-d/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjectionModule.o
-d/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/JSObjection.o
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
-d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libkeymgr.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Link /Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/crmDemo77"Ld DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/crmDemo normal armv7d3879201388fb941^6ea5a301388fb941^---0#0#1#--1300"Ld DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/crmDemo normal armv7    cd /Users/liyang/workspace/crmDemo    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos -F/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos -filelist /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/crmDemo.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.1 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/Objects-normal/armv7/crmDemo_dependency_info.dat -o /Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/crmDemo36"58329A6D-83C9-468B-A198-8F3AB4448933-
-b5D958EBF-2441-429F-B4B2-A8B93B056C56
-
-CProcessInfoPlistFile /Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/Info.plist /Users/liyang/workspace/crmDemo/crmDemo/crmDemo-Info.plist
-s428816386.675360
-e428816386.689944
-r1
-xProcessInfoPlistFile
-x/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/Info.plist
-x/Users/liyang/workspace/crmDemo/crmDemo/crmDemo-Info.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Process /Users/liyang/workspace/crmDemo/crmDemo/crmDemo-Info.plist112"ProcessInfoPlistFile DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/Info.plist crmDemo/crmDemo-Info.plistd4f1ac02388fb941^a1a0b002388fb941^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/liyang/workspace/crmDemo/crmDemo/crmDemo-Info.plist0000000000000000^978"ProcessInfoPlistFile DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/Info.plist crmDemo/crmDemo-Info.plist    cd /Users/liyang/workspace/crmDemo    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/liyang/workspace/crmDemo/crmDemo/crmDemo-Info.plist -genpkginfo /Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/ResourceRules.plist -additionalcontentfile /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/assetcatalog_generated_info.plist -o /Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/Info.plist36"B6DEB6EC-A191-408C-8717-5FFA3E61AE75-
-b5D958EBF-2441-429F-B4B2-A8B93B056C56
-
-CProcessPCH /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/PrecompiledHeaders/crmDemo-Prefix-atodisfimkziihbchbiteuaktefj/crmDemo-Prefix.pch.pch crmDemo/crmDemo-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CProcessPCH /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/PrecompiledHeaders/crmDemo-Prefix-hhexgfsuvsnscfgtxqxxtufvwodx/crmDemo-Prefix.pch.pch crmDemo/crmDemo-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s428816384.564134
-e428816385.310692
-r1
-xProcessPCH
-x/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/PrecompiledHeaders/crmDemo-Prefix-hhexgfsuvsnscfgtxqxxtufvwodx/crmDemo-Prefix.pch.pch
-xcrmDemo/crmDemo-Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/liyang/workspace/crmDemo/crmDemo/crmDemo-Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile crmDemo/crmDemo-Prefix.pch224"ProcessPCH DerivedData/Build/Intermediates/PrecompiledHeaders/crmDemo-Prefix-hhexgfsuvsnscfgtxqxxtufvwodx/crmDemo-Prefix.pch.pch crmDemo/crmDemo-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerd8809000388fb941^e7894f01388fb941^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/liyang/workspace/crmDemo/crmDemo/crmDemo-Prefix.pch0000000000000000^3443"ProcessPCH DerivedData/Build/Intermediates/PrecompiledHeaders/crmDemo-Prefix-hhexgfsuvsnscfgtxqxxtufvwodx/crmDemo-Prefix.pch.pch crmDemo/crmDemo-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/liyang/workspace/crmDemo    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/liyang/workspace/crmDemo/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-generated-files.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-own-target-headers.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-all-target-headers.hmap -iquote /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo-project-headers.hmap -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -IcrmDemo/protocols -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/DerivedSources/armv7 -I/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/DerivedSources -F/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/PrecompiledHeaders/crmDemo-Prefix-hhexgfsuvsnscfgtxqxxtufvwodx/crmDemo-Prefix.pch.dia -MMD -MT dependencies -MF /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/PrecompiledHeaders/crmDemo-Prefix-hhexgfsuvsnscfgtxqxxtufvwodx/crmDemo-Prefix.pch.d -c /Users/liyang/workspace/crmDemo/crmDemo/crmDemo-Prefix.pch -o /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/PrecompiledHeaders/crmDemo-Prefix-hhexgfsuvsnscfgtxqxxtufvwodx/crmDemo-Prefix.pch.pch36"55D9366C-7C90-4015-B45B-CC59E67E9C13-
-b5D958EBF-2441-429F-B4B2-A8B93B056C56
-
-CProcessPCH /Users/liyang/workspace/crmDemo/DerivedData/crmDemo/Index/PrecompiledHeaders/crmDemo-Prefix-buksodflipjwqfehqxeegjoyzooy_ast/crmDemo-Prefix.pch.pch crmDemo/crmDemo-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/liyang/workspace/crmDemo/DerivedData/crmDemo/Index/PrecompiledHeaders/crmDemo-Prefix-eqwvefzlmxiwyofkafineliglivi_ast/crmDemo-Prefix.pch.pch crmDemo/crmDemo-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo.xcent
-s428816386.712137
-e428816386.713047
-r1
-xProcessProductPackaging
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
-x/Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo.xcent
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection233"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo.xcent233"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo.xcent255ab602388fb941^268cb602388fb941^---0#0#1#-19%DVTDocumentLocation2@127"file:///Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo.xcent003414a1dcffdf42^768"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo.xcent    cd /Users/liyang/workspace/crmDemo    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/liyang/workspace/crmDemo/DerivedData/Build/Intermediates/crmDemo.build/Debug-iphoneos/crmDemo.build/crmDemo.xcent36"601302B1-6C3F-4072-9356-55A5D5AC6F5A-
-b5D958EBF-2441-429F-B4B2-A8B93B056C56
-
-CProcessProductPackaging /Users/liyang/Library/MobileDevice/Provisioning\ Profiles/758E909E-0578-48F2-B326-4F8B0729B57C.mobileprovision /Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/embedded.mobileprovision
-s428816386.709966
-e428816386.711434
-r1
-xProcessProductPackaging
-x/Users/liyang/Library/MobileDevice/Provisioning Profiles/758E909E-0578-48F2-B326-4F8B0729B57C.mobileprovision
-x/Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/embedded.mobileprovision
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection213"ProcessProductPackaging /Users/liyang/Library/MobileDevice/Provisioning\ Profiles/758E909E-0578-48F2-B326-4F8B0729B57C.mobileprovision DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/embedded.mobileprovision213"ProcessProductPackaging /Users/liyang/Library/MobileDevice/Provisioning\ Profiles/758E909E-0578-48F2-B326-4F8B0729B57C.mobileprovision DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/embedded.mobileprovision3ecdb502388fb941^8122b602388fb941^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/embedded.mobileprovision003414a1dcffdf42^702"ProcessProductPackaging /Users/liyang/Library/MobileDevice/Provisioning\ Profiles/758E909E-0578-48F2-B326-4F8B0729B57C.mobileprovision DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/embedded.mobileprovision    cd /Users/liyang/workspace/crmDemo    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/liyang/Library/MobileDevice/Provisioning\ Profiles/758E909E-0578-48F2-B326-4F8B0729B57C.mobileprovision -o /Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app/embedded.mobileprovision36"566651B2-24B1-42EF-AF28-7CF06FE3E3AB-
-b5D958EBF-2441-429F-B4B2-A8B93B056C56
-
-CTouch /Users/liyang/workspace/crmDemo/DerivedData/Build/Products/Debug-iphoneos/crmDemo.app
-r0
-
