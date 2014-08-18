@@ -39,10 +39,9 @@
     [testButton setTitle:@"test" forState:UIControlStateNormal];
     [testButton setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
     [testButton addTarget:self action:@selector(showSecondView:) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:testButton];
     
     callMinxingButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    callMinxingButton.frame = CGRectMake(50, 120, 100, 30);
+    callMinxingButton.frame = CGRectMake(50, 120, 210, 60);
     callMinxingButton.backgroundColor = [UIColor grayColor];
     [callMinxingButton setTitle:@"发消息" forState:UIControlStateNormal];
     [callMinxingButton setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
@@ -50,7 +49,7 @@
     [self.view addSubview:callMinxingButton];
     
     homeButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    homeButton.frame = CGRectMake(50, 160, 100, 30);
+    homeButton.frame = CGRectMake(50, 230, 210, 60);
     homeButton.backgroundColor = [UIColor grayColor];
     [homeButton setTitle:@"工作圈" forState:UIControlStateNormal];
     [homeButton setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
