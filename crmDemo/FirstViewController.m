@@ -85,7 +85,7 @@
 
 -(void)callMinxing:(UIButton *)sender
 {
-    NSArray *userArr = [NSArray arrayWithObjects:@"1076",@"1077", nil];
+    NSArray *userArr = [NSArray arrayWithObjects:@"49",@"50", nil];
     [minxingAPI startConversation:userArr withApplication:[UIApplication sharedApplication]];
     
 //    NSString *minxingChatURL = @"minxing://?1459&1469&1238#chat";
