@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-
 @interface crmDemoLib : NSObject
 -(id)init;
 -(void)presentCRMDemo;
+
+-(UIViewController *)demoViewController;
 @end

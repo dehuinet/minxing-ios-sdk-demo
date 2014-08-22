@@ -5,19 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>1F4905B9-EEB3-4A73-9BE6-18F10649F5A0</string>
+	<string>CB6509A4-276B-4687-ADEB-4564AA0C82F7</string>
 	<key>IDESourceControlProjectName</key>
 	<string>crmDemoLib</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>699460FF-3074-430E-8864-8577B0D30966</key>
+		<key>554648C0-8CCE-4096-B8AB-CDC788F01FFC</key>
 		<string>https://github.com/dehuinet/minxing-ios-sdk-demo</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>crmDemoLib/crmDemoLib.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>699460FF-3074-430E-8864-8577B0D30966</key>
+		<key>554648C0-8CCE-4096-B8AB-CDC788F01FFC</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>699460FF-3074-430E-8864-8577B0D30966</string>
+	<string>554648C0-8CCE-4096-B8AB-CDC788F01FFC</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>699460FF-3074-430E-8864-8577B0D30966</string>
+			<string>554648C0-8CCE-4096-B8AB-CDC788F01FFC</string>
 			<key>IDESourceControlWCCName</key>
 			<string>minxing-ios-sdk-demo</string>
 		</dict>

@@ -21,8 +21,16 @@
     return self;
 }
 
+-(UIViewController *)demoViewController
+{
+    FirstViewController *firstViewController = [[FirstViewController alloc] init];
+    return  firstViewController;
+}
+
 -(void)presentCRMDemo
 {
+    
+    
     NSArray *windows = [[UIApplication sharedApplication] windows];
     UIViewController *rootViewController = (windows.count > 0) ? [[windows objectAtIndex:0] rootViewController] : nil;
     if (rootViewController)
